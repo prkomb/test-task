@@ -5,7 +5,6 @@ import dynamic from "next/dynamic";
 import Preloader from "./components/Preloader/Preloader";
 import { SiBitcoin, SiSolana } from "react-icons/si";
 import { simulateFetch, prettyTimeFormat } from "./page.utils";
-import { SymbolButton } from "./components/ButtonController/SymbolButton";
 import ButtonController from "./components/ButtonController/ButtonController";
 
 const PriceChart = dynamic(() => import("./components/PriceChart/PriceChart"), {
